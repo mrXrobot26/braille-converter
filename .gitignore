@@ -1,0 +1,18 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+
+# PyInstaller output (screenshots in build/ show copyrighted test pages)
+build/
+dist/
+*.spec
+
+# copyrighted study notes used as local reference fixtures - never publish
+tests/fixtures/saifi/
+
+# review state files written next to source documents
+*.nassbraille.json
+*.nassbraille.json.tmp
